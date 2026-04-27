@@ -2,6 +2,12 @@
 
 This folder is the first rebuild workspace for Arche' International.
 
+Live GitHub Pages site:
+
+```text
+https://samula-digital.github.io/arche-international/
+```
+
 ## Files
 
 - `index.html` - public-facing homepage draft.
