@@ -27,6 +27,7 @@ https://samula-digital.github.io/arche-international/
 - `404.html` - GitHub Pages not-found page.
 - `robots.txt` and `sitemap.xml` - crawler and sitemap files.
 - `PAYMENTS.md` - instructions for connecting hosted payment links.
+- `DOMAIN_SETUP.md` - planned `archeintl.com` domain and DNS/GitHub Pages setup notes.
 - `assets/css/styles.css` - site styling.
 - `assets/js/main.js` - mobile menu and hero image rotation.
 - `assets/images/` - archived visual assets from the old site.
@@ -37,7 +38,7 @@ https://samula-digital.github.io/arche-international/
 Before publishing active donation processing, verify:
 
 - Current leadership and board.
-- Correct email, phone, address, and domain.
+- Domain registration and DNS for `archeintl.com`.
 - Donation processor and receipts.
 - Current project priorities, partner permissions, and image usage.
 

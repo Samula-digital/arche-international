@@ -626,6 +626,20 @@ a {
   margin-bottom: 0;
 }
 
+.compact-meta {
+  box-shadow: none;
+  margin-top: 1.25rem;
+}
+
+.contact-meta a {
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.contact-meta a:hover {
+  color: var(--green);
+}
+
 .mission {
   background: var(--green);
   color: var(--white);
