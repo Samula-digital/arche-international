@@ -13,7 +13,7 @@
   <body>
     <header class="site-header">
       <div class="utility">
-        <p>IRS-listed nonprofit: Arche International, EIN 27-0796734. For giving, volunteering, and partnership inquiries, contact us.</p>
+        <p>Faith-rooted nonprofit ministry for community care, partnership, and Gospel-centered service.</p>
       </div>
 
       <nav class="nav" aria-label="Primary navigation">
@@ -31,7 +31,6 @@
           <a href="programs.html">Programs</a>
           <a href="updates.html">Updates</a>
           <a href="volunteer.html">Volunteer</a>
-          <a href="transparency.html">Transparency</a>
           <a href="contact.html">Contact</a>
           <a href="faq.html">FAQ</a>
           <a class="nav-cta" href="donate.html" aria-current="page">Donate</a>
@@ -47,35 +46,51 @@
           <p class="eyebrow">Donate</p>
           <h1>Give with clarity, accountability, and purpose.</h1>
           <p>
-            The public IRS record is listed on the transparency page. Until secure online giving is configured, supporters
-            can begin through a direct giving conversation.
+            A hosted payment link can be connected here without rebuilding the site. Until then, supporters can begin
+            through a direct giving conversation.
           </p>
         </div>
       </section>
 
       <section class="page-body">
-        <div class="notice urgent">
-          <h2>Start with a giving conversation.</h2>
+        <div class="notice">
+          <h2>Online giving is being prepared.</h2>
           <p>
-            IRS records list Arche International under EIN 27-0796734. Online processing will be added after secure
-            payment setup and receipt handling are configured; for now, use the contact page before sending funds or supplies.
+            This site is prepared to send donors to a hosted Stripe, PayPal, Givebutter, or Donorbox page. Until an
+            official hosted link is connected, please start through the contact page.
           </p>
         </div>
       </section>
 
-      <section class="page-body">
-        <div class="content-grid three">
-          <article class="content-card">
-            <h2>IRS Record</h2>
-            <p>Arche International appears in the IRS Business Master File with EIN 27-0796734 and subsection code 03.</p>
+      <section class="page-body donation-panel" aria-labelledby="give-online-title">
+        <div class="donation-copy">
+          <p class="eyebrow">Online Giving</p>
+          <h2 id="give-online-title">Choose the hosted giving option.</h2>
+          <p>
+            Hosted links keep card and bank details off this website. That is the right fit for GitHub Pages and a safer
+            path for donors.
+          </p>
+        </div>
+        <div class="payment-grid" data-payment-grid>
+          <article class="payment-card" data-provider="stripe">
+            <h3>Card / Bank</h3>
+            <p>Connect a Stripe Payment Link for card, wallet, or bank-supported giving.</p>
+            <a class="button primary" href="contact.html" data-payment-link>Ask About Card Giving</a>
           </article>
-          <article class="content-card">
-            <h2>Deductibility</h2>
-            <p>The IRS BMF line shows deductibility code 1. Donors should keep receipts and consult their tax advisor.</p>
+          <article class="payment-card" data-provider="paypal">
+            <h3>PayPal</h3>
+            <p>Connect a PayPal Donate button or hosted donation page.</p>
+            <a class="button secondary" href="contact.html" data-payment-link>Ask About PayPal</a>
           </article>
-          <article class="content-card">
-            <h2>Ruling Date</h2>
-            <p>The IRS BMF record lists ruling month 196402. The archived site describes the modern ministry launch in 2009.</p>
+          <article class="payment-card" data-provider="hostedForm">
+            <h3>Hosted Form</h3>
+            <p>Connect Givebutter, Donorbox, or another nonprofit giving form.</p>
+            <a class="button secondary" href="contact.html" data-payment-link>Ask About Online Giving</a>
+          </article>
+          <article class="payment-card active">
+            <h3>Mail / Supplies</h3>
+            <p>Ask for current instructions before mailing checks, equipment, or donated goods.</p>
+            <a class="button secondary" href="contact.html">Request Instructions</a>
           </article>
         </div>
       </section>
@@ -103,9 +118,9 @@
           <h2>Readiness checklist.</h2>
         </div>
         <ul class="check-list">
-          <li>Keep the IRS public record and EIN visible on the transparency page.</li>
+          <li>Create a hosted Stripe Payment Link, PayPal Donate link, Givebutter form, or Donorbox campaign.</li>
+          <li>Paste the live URL into `assets/js/payment-config.js`.</li>
           <li>Confirm board approval for donation language and restricted fund handling.</li>
-          <li>Set up a secure payment processor and receipt workflow.</li>
           <li>Publish privacy, refund, and donor communication policies.</li>
           <li>Verify the mailing address before listing checks or supply shipments.</li>
         </ul>
@@ -114,7 +129,7 @@
       <section class="page-body">
         <div class="page-actions">
           <a class="button primary" href="contact.html">Ask About Giving</a>
-          <a class="button secondary" href="transparency.html">Review Public Record</a>
+          <a class="button secondary" href="donor-policy.html">Read Donor Policy</a>
         </div>
       </section>
     </main>
@@ -134,6 +149,8 @@
       </div>
     </footer>
 
+    <script src="assets/js/payment-config.js"></script>
+    <script src="assets/js/donation.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>

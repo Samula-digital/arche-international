@@ -26,6 +26,7 @@ https://samula-digital.github.io/arche-international/
 - `contact.html` - contact page and mail-based message form.
 - `404.html` - GitHub Pages not-found page.
 - `robots.txt` and `sitemap.xml` - crawler and sitemap files.
+- `PAYMENTS.md` - instructions for connecting hosted payment links.
 - `assets/css/styles.css` - site styling.
 - `assets/js/main.js` - mobile menu and hero image rotation.
 - `assets/images/` - archived visual assets from the old site.
