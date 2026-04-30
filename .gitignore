@@ -1,0 +1,5 @@
+.DS_Store
+.auto-deploy.log
+.auto-deploy.pid
+.auto-deploy.lock
+node_modules/
