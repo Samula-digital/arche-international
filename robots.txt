@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://samula-digital.github.io/arche-international/sitemap.xml
